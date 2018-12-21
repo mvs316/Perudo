@@ -8,11 +8,14 @@ public class NewLocalGame {
     private JTextField textField1;
     private JButton CREATEGAMEButton;
     private JButton button1;
+    private JButton STARTSERVERButton;
 
     public NewLocalGame(){
         CREATEGAMEButton.setBorderPainted(false);
         CREATEGAMEButton.setForeground(Color.WHITE);
         CREATEGAMEButton.setBackground(Color.BLUE);
+        STARTSERVERButton.setBorderPainted(false);
+        STARTSERVERButton.setContentAreaFilled(false);
         button1.setBorderPainted(false);
         button1.setContentAreaFilled(false);
     }
@@ -20,7 +23,9 @@ public class NewLocalGame {
     public JPanel getPanel() {
         return panel;
     }
-
+    public JButton getSTARTSERVERButton(){
+        return STARTSERVERButton;
+    }
     public JTextField getTextField1() {
         return textField1;
     }

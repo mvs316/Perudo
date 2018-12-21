@@ -29,6 +29,8 @@ public class Menu implements ActionListener, MouseListener {
     private JButton regButton;
     private JButton offlButton;
 
+    private JButton startServer;
+
     private connectLocal connLC;
     private JButton exitConnLC;
     private JButton join;
@@ -91,6 +93,8 @@ public class Menu implements ActionListener, MouseListener {
         exitLC = lcParty.getButton1();
         createLoc.addActionListener(this);
         exitLC.addActionListener(this);
+        startServer = lcParty.getSTARTSERVERButton();
+        startServer.addActionListener(this);
 
         newParty = new NewGame();
         newGame = newParty.getPanel();
@@ -196,6 +200,9 @@ public class Menu implements ActionListener, MouseListener {
     public void actionPerformed(ActionEvent evt)
     {
         Object src = evt.getSource();
+        if(src == startServer){
+            startServer.setEnabled(false);
+        }
         if(src == newGameButton){
             type1.setVisible(false);
             newGame.setVisible(true);

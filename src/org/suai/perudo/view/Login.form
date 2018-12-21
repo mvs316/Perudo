@@ -25,7 +25,7 @@
       <component id="30db9" class="javax.swing.JButton" binding="REGISTERButton">
         <constraints>
           <grid row="4" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
-            <minimum-size width="20" height="40"/>
+            <preferred-size width="200" height="50"/>
           </grid>
         </constraints>
         <properties>
@@ -35,7 +35,7 @@
       <component id="ba47e" class="javax.swing.JButton" binding="loginButton">
         <constraints>
           <grid row="3" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
-            <minimum-size width="20" height="40"/>
+            <preferred-size width="200" height="50"/>
           </grid>
         </constraints>
         <properties>
@@ -61,7 +61,7 @@
       <component id="8fb3e" class="javax.swing.JButton" binding="STAYOFFLINEButton">
         <constraints>
           <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
-            <minimum-size width="20" height="40"/>
+            <preferred-size width="200" height="50"/>
           </grid>
         </constraints>
         <properties>
